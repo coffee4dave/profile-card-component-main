@@ -1,35 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <!-- https://coffee4dave.github.io/profile-card-component-main/ -->
 
-  80K
-  Followers
+  <main>
+    <div class="card">
+      <div class="card-top"></div>
+      <div class="card-picture">
+        <img src="./images/image-victor.jpg" alt="">
+      </div>
+      <div class="card-middle">
+        <h2>Victor Crest
+          <span class="age">26</span></h2>
+        <h3>London</h3>
+      </div>
+      <hr>
+      <div class="card-footer">
+        <div class="card-footer-cell">
+          <h2>80K</h2>
+          <h4>Followers</h4>
+        </div>
+        <div class="card-footer-cell">
+          <h2>803K</h2>
+          <h4>Likes</h4>
+        </div>
+        <div class="card-footer-cell">
+          <h2>1.4K</h2>
+          <h4>Photos</h4>
+        </div>
+      </div>
+    </div>
+  </main>
 
-  803K
-  Likes
 
-  1.4K
-  Photos
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Dave Brown</a>.
   </div>
 </body>
+
 </html>
